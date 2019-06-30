@@ -9,9 +9,17 @@ body {
 .grid-container {
 	display: grid;
 	grid-template-columns: auto auto auto;
+	/*align-items: center;*/
+	justify-content: center;
+	grid-gap: 3rem;
+}
+
+.grid-item {
+	width: 240px;
 }
 
 .image {
+	/*align-content: center;*/
 	height: 180px;
 	width: 240px;
 }
@@ -19,4 +27,14 @@ body {
 .title {
 	font-size: 1em;
 	font-weight: bold;
+	text-align: center;
+}
+
+.link {
+	/*text-align: center;*/
+
+}
+
+.description {
+	text-align: center;
 }
