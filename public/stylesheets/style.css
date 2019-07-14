@@ -10,9 +10,7 @@
   }
 }
 
-html {
-  height: 110%;
-}
+
 
 h1 {
 	text-align: center;
@@ -88,5 +86,8 @@ body {
 		grid-gap: 3rem;
 	}
 
-
+@media only screen and (min-width: 999px) {
+	html {
+	  height: 110%;
+	}
 }
