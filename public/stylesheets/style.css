@@ -1,14 +1,4 @@
-@keyframes background {
-  0% {
-    background-position: 50% 0%
-  }
-  50% {
-    background-position: 50% 100%
-  }
-  100%{
-    background-position: 50% 0%
-  }
-}
+
 
 
 
@@ -19,11 +9,7 @@ h1 {
 
 body {
 	font-family: Gill Sans, sans-serif;
-	/*background-color: #e4ebf7;*/
-	/*height: 100%;*/
-  background: linear-gradient(315deg, #ff0000, #00ffff);
-  background-size: 300% 300%;
-  animation: background 14s linear infinite;
+  background: #dfe5f0
 
 }
 
@@ -84,15 +70,5 @@ body {
 		/*align-items: center;*/
 		justify-content: center;
 		grid-gap: 3rem;
-	}
-
-	html {
-	  height: 100%;
-	}
-}
-
-@media only screen and (min-width: 999px) {
-	html {
-	  height: 100%;
 	}
 }
