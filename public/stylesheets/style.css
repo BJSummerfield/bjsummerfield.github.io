@@ -1,10 +1,19 @@
 h1 {
-  padding-left: 3rem;
+padding-left: 3rem;
 }
 
 body {
   font-family: Gill Sans, sans-serif;
   background: #aebfbe
+}
+
+.name {
+  font-size: 55px;
+}
+
+.bio {
+  font-size: 20px;
+  padding-left: 3rem;
 }
 
 .section {
@@ -35,12 +44,24 @@ body {
   border-radius: 5px
 }
 
+.icon {
+  width: 60px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 .description {
+  font-size: 1.2em;
   text-align: center;
 }
 
 .title {
-  font-size: 1.2em;
+  font-size: 1.4em;
   font-weight: bold;
   text-align: center;
 }
@@ -99,5 +120,3 @@ body {
     grid-gap: 3rem;
   }
 }
-
-
