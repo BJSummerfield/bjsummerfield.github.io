@@ -35,7 +35,7 @@ body {
 }
 
 .grid-item {
-  width: 420px;
+  width: 400px;
 }
 
 .image {
@@ -100,6 +100,12 @@ body {
   h1 {
     text-align: center;
     padding-left: 0px;
+  }
+  .name {
+    font-size: 40px;
+  }
+  .bio {
+    padding-left: 0rem;
   }
 }
 
