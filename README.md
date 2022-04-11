@@ -1,5 +1,6 @@
 **Generating Images**
-Set
+
+Add
 ```css
 body{overflow: hidden;}
 ```
